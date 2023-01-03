@@ -9,7 +9,7 @@ class CalculatorTest {
     private final Calculator calculator = new Calculator();
 
     @Test
-    public void sumReturnedWhenTwoNumbersAreAdded() {
+    void sumReturnedWhenTwoNumbersAreAdded() {
         assertEquals(10, calculator.add(5, 5));
     }
 }

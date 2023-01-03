@@ -19,7 +19,8 @@ Also, the test methods are not required to:
 
 ### Content
 
-- Writing the simplest test with JUnit 5
+- Writing the simplest test with JUnit 5 (e.g. `CalculatorTest.java (sumReturnedWhenTwoNumbersAreAdded)` )
+- Providing meaningful names to test methods in JUnit 5 (e.g. `CalculatorTest.java (constructorShouldSetAmountAndCCY)`)
 - 
 
 

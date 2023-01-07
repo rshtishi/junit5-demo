@@ -23,5 +23,6 @@ Also, the test methods are not required to:
 - Providing meaningful names to test methods in JUnit 5 (e.g. `MoneyTest.java (method:constructorShouldSetAmountAndCCY)`)
 - Testing exceptions (e.g. `MoneyTest.java (method:constructorShouldExceptionWithAmountInvalidMessageWheAmountIsInvalid)`)
 - Disabling tests (e.g. `CalculatorTest.java (method:productReturnedWhenTwoNumbersAreMultiplied)`)
-- 
+- Conditional Test Execution (e.g. `FileSystemTest.java (method:whenOSisLinuxThenGetOperatingSystemWillReturnLinux)`)
+
 

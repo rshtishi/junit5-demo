@@ -1,5 +1,6 @@
 package com.github.rshtishi.junit5.basic;
 
+import com.github.rshtishi.junit5.configuration.TestOnWindows;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.EnabledOnOs;
 import org.junit.jupiter.api.condition.OS;
@@ -19,8 +20,7 @@ class FileSystemTest {
         assertEquals("Linux", osName);
     }
 
-    @Test
-    @EnabledOnOs(OS.WINDOWS)
+    @TestOnWindows
     void whenOSisWindowsThenGetOperatingSystemWillReturnWindows() {
         //setup
         FileSystem fileSystem = new FileSystem();

@@ -19,8 +19,9 @@ Also, the test methods are not required to:
 
 ### Content
 
-- Writing the simplest test with JUnit 5 (e.g. `CalculatorTest.java (sumReturnedWhenTwoNumbersAreAdded)` )
-- Providing meaningful names to test methods in JUnit 5 (e.g. `MoneyTest.java (constructorShouldSetAmountAndCCY)`)
-- Testing exceptions (e.g. `MoneyTest.java (constructorShouldExceptionWithAmountInvalidMessageWheAmountIsInvalid()`)
-
+- Writing the simplest test with JUnit 5 (e.g. `CalculatorTest.java (method:sumReturnedWhenTwoNumbersAreAdded)` )
+- Providing meaningful names to test methods in JUnit 5 (e.g. `MoneyTest.java (method:constructorShouldSetAmountAndCCY)`)
+- Testing exceptions (e.g. `MoneyTest.java (method:constructorShouldExceptionWithAmountInvalidMessageWheAmountIsInvalid)`)
+- Disabling tests (e.g. `CalculatorTest.java (method:productReturnedWhenTwoNumbersAreMultiplied)`)
+- 
 

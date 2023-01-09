@@ -23,8 +23,9 @@ Also, the test methods are not required to:
 - Providing meaningful names to test methods in JUnit 5 (e.g. `MoneyTest.java (method: constructorShouldSetAmountAndCCY)`)
 - Testing exceptions (e.g. `MoneyTest.java (method: constructorShouldExceptionWithAmountInvalidMessageWheAmountIsInvalid)`)
 - Disabling tests (e.g. `CalculatorTest.java (method: productReturnedWhenTwoNumbersAreMultiplied)`)
-- OS Conditional Test Execution (e.g. `FileSystemTest.java (method: whenOSisLinuxThenGetOperatingSystemWillReturnLinux)`)
-- Composed Annotation (e.g. `FileSystemTest.java (method: whenOSisWindowsThenGetOperatingSystemWillReturnWindows)`)
-- 
+- OS Conditional test execution (e.g. `FileSystemTest.java (method: whenOSisLinuxThenGetOperatingSystemWillReturnLinux)`)
+- OS Condition test execution with composite annotation (e.g. `FileSystemTest.java (method: whenOSisWindowsThenGetOperatingSystemWillReturnWindows)`)
+- JRE Condition Test execution (e.g. `FileUtilsTest.java`)
+- System Property Condition 
 
 

@@ -2,6 +2,8 @@ package com.github.rshtishi.junit5.basic;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.DisabledIfSystemProperty;
+import org.junit.jupiter.api.condition.EnabledIfSystemProperty;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -18,6 +20,18 @@ class CalculatorTest {
     @Test
     void productReturnedWhenTwoNumbersAreMultiplied() {
         assertEquals(10, calculator.multiply(2, 5));
+    }
+
+    @Test
+    @EnabledIfSystemProperty(named="type",matches="unit")
+    void quotientReturnWhenTwoNumberAreDivided(){
+        assertEquals(10, calculator.divide(50, 5));
+    }
+
+    @Test
+    @DisabledIfSystemProperty(named = "ci-server", matches = "true")
+    void quotientReturnWhenTwoNumberAreDividedNotOnCiServer() {
+        assertEquals(100, calculator.divide(500, 5));
     }
 
 }

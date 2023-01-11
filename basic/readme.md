@@ -26,6 +26,7 @@ Also, the test methods are not required to:
 - OS Conditional test execution (e.g. `FileSystemTest.java (method: whenOSisLinuxThenGetOperatingSystemWillReturnLinux)`)
 - OS Condition test execution with composite annotation (e.g. `FileSystemTest.java (method: whenOSisWindowsThenGetOperatingSystemWillReturnWindows)`)
 - JRE Condition Test execution (e.g. `FileUtilsTest.java`)
-- System Property Condition 
+- System Property Condition (e.g. `CalculatorTest.java (method: quotientReturnWhenTwoNumberAreDivided)`)
+- Environment Variable Condition (e.g. `TextProcessorTest.java (method: whenTextProvidedThenCountWordWillReturnWordCount`)
 
 

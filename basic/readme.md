@@ -29,4 +29,5 @@ Also, the test methods are not required to:
 - System Property Condition (e.g. `CalculatorTest.java (method: quotientReturnWhenTwoNumberAreDivided)`)
 - Environment Variable Condition (e.g. `TextProcessorTest.java (method: whenTextProvidedThenCountWordWillReturnWordCount`)
 - Filter By Tag (e.g. `TaxCalculatorTest.java (method: whenAmountIsMinimalWage_thenNoTaxIsApplied)`)
+- Test Execution Order (e.g. `FactorialTest.java)`)
 

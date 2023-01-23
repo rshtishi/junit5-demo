@@ -30,4 +30,5 @@ Also, the test methods are not required to:
 - Environment Variable Condition (e.g. `TextProcessorTest.java (method: whenTextProvidedThenCountWordWillReturnWordCount`)
 - Filter By Tag (e.g. `TaxCalculatorTest.java (method: whenAmountIsMinimalWage_thenNoTaxIsApplied)`)
 - Test Execution Order (e.g. `FactorialTest.java)`)
+- Test Instance Lifecycle (e.g `GradeServiceTest.java`)
 

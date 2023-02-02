@@ -34,5 +34,8 @@ Also, the test methods are not required to:
 - Test Instance Lifecycle (e.g `GradeServiceTest.java`)
 - Testing Exception (e.g `Calculator.java (method: throwExceptionWhenDivideByZero)`)
 - Nested Tests (e.g `BankAccountTest.java`)
-- 
+- Dependency Injection for Constructor and Methods (e.g.`UserServiceTest.java` )
+- Test Interfaces And Default Methods
+- Repeated Tests
+- Parameterized Tests
 

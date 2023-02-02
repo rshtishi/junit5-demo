@@ -12,6 +12,10 @@ class UserServiceTest {
 
     UserService userService;
 
+    UserServiceTest(TestInfo info){
+        System.out.println(info.getDisplayName());
+    }
+
     @BeforeEach
     void setup(TestInfo info) {
        System.out.println(info.getDisplayName());

@@ -35,7 +35,7 @@ Also, the test methods are not required to:
 - Testing Exception (e.g `Calculator.java (method: throwExceptionWhenDivideByZero)`)
 - Nested Tests (e.g `BankAccountTest.java`)
 - Dependency Injection for Constructor and Methods (e.g.`UserServiceTest.java` )
-- Test Interfaces And Default Methods
+- Test Interfaces And Default Methods (e.g. `CanSumTest.java`, `CanSumTabulationImplTest.java`, `CanSumRecursiveImplTest.java`)
 - Repeated Tests
 - Parameterized Tests
 

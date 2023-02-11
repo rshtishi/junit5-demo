@@ -40,5 +40,6 @@ Also, the test methods are not required to:
 - Parameterized Tests with `@ValueSource` (e.g. `StringUtilTest.java`)
 - Parameterized Tests with `@NullSource` and `@EmptySource` (e.g. `StringUtilTest.java`)
 - Parameterized Tests with `@EnumSource` (e.g. `OrderServiceTest.java`)
-- 
+- Parameterized Tests with `@MethodSource` (e.g. `StringUtilTest.java`)
+- Parameterized Tests with `@CsvSource` (e.g. ``)
 

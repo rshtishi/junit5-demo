@@ -39,5 +39,6 @@ Also, the test methods are not required to:
 - Repeated Tests (e.g. `TicketSalesSystemTest.java`)
 - Parameterized Tests with `@ValueSource` (e.g. `StringUtilTest.java`)
 - Parameterized Tests with `@NullSource` and `@EmptySource` (e.g. `StringUtilTest.java`)
+- Parameterized Tests with `@EnumSource` (e.g. `OrderServiceTest.java`)
 - 
 

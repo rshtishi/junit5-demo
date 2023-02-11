@@ -1,0 +1,4 @@
+item,quantity,expectedQuantity
+apple,3,3
+banana,2,2
+apple,4,7

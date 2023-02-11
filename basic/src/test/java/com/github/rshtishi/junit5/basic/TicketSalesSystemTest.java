@@ -16,7 +16,7 @@ public class TicketSalesSystemTest {
         int currentRepetition = repetitionInfo.getCurrentRepetition();
         int totalRepetitions = repetitionInfo.getTotalRepetitions();
         String methodName = testInfo.getTestMethod().get().getName();
-        System.out.println(String.format("About to execute repetition %d of %d for %s", //
+        System.out.println(String.format("About to execute repetition %d of %d for %s",
                 currentRepetition, totalRepetitions, methodName));
     }
 

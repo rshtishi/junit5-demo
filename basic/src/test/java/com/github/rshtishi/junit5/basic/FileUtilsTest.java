@@ -5,6 +5,10 @@ import org.junit.jupiter.api.condition.DisabledOnJre;
 import org.junit.jupiter.api.condition.EnabledForJreRange;
 import org.junit.jupiter.api.condition.EnabledOnJre;
 import org.junit.jupiter.api.condition.JRE;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
+import java.io.File;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -24,7 +28,7 @@ class FileUtilsTest {
     }
 
     @Test
-    @EnabledForJreRange(min=JRE.JAVA_9, max=JRE.JAVA_11)
+    @EnabledForJreRange(min = JRE.JAVA_9, max = JRE.JAVA_11)
     public void when_file_exists_then_read_content_is_successful_on_range_jre8_to_jre11() {
         //setup
         FileUtils fileUtils = new FileUtils();
@@ -49,5 +53,15 @@ class FileUtilsTest {
         assertEquals(expectedContent, content);
     }
 
-
+    @ParameterizedTest
+    @ValueSource(strings = {"src/test/resources/test.txt"})
+    public void testReadContentPositive(File file) {
+        //setup
+        FileUtils fileUtils = new FileUtils();
+        //execute
+        String content = fileUtils.readContent(file);
+        //verify
+        String expectedContent = "data";
+        assertEquals(expectedContent, content);
+    }
 }

@@ -44,5 +44,5 @@ Also, the test methods are not required to:
 - Parameterized Tests with `@CsvSource` (e.g. `ShoppingCartTest.java`)
 - Parameterized Tests with `@ArgumentSource` (e.g. `TemperatureConverterTest.java`)
 - Implicit Argument Conversion in parameterized tests (e.g. `FileUtilsTest.java`, `BookTest.java`)
-- Explicit Argument Conversion in parameterized tests (e.g. ``)
+- Explicit Argument Conversion in parameterized tests (e.g. `PersonTest.java`)
 

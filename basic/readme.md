@@ -42,4 +42,6 @@ Also, the test methods are not required to:
 - Parameterized Tests with `@EnumSource` (e.g. `OrderServiceTest.java`)
 - Parameterized Tests with `@MethodSource` (e.g. `StringUtilTest.java`)
 - Parameterized Tests with `@CsvSource` (e.g. `ShoppingCartTest.java`)
+- Parameterized Tests with `@ArgumentSource` (e.g. `TemperatureConverterTest.java`)
+- 
 

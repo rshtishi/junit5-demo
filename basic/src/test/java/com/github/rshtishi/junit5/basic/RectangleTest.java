@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class RectangleTest {
 
     @DisplayName("Test Area of Rectangle")
-    @ParameterizedTest(name = "width:{0} height:{1} => area:{2}")
+    @ParameterizedTest(name = "it: {index} width:{0} height:{1} => area:{2}")
     @CsvSource({
             "10,20,200",
             "5,15,75",

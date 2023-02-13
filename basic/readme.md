@@ -47,4 +47,6 @@ Also, the test methods are not required to:
 - Explicit Argument Conversion in parameterized tests (e.g. `PersonTest.java`)
 - Argument Accessor in parameterized tests (e.g. `ShippingCostCalculatorTest.java`)
 - Argument Aggregators in parameterized tests (e.g. `RectangleTest.java`)
+- Customizing Naming Display (e.g. `RectangleTest.java`)
+- 
 

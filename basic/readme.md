@@ -48,5 +48,7 @@ Also, the test methods are not required to:
 - Argument Accessor in parameterized tests (e.g. `ShippingCostCalculatorTest.java`)
 - Argument Aggregators in parameterized tests (e.g. `RectangleTest.java`)
 - Customizing Naming Display (e.g. `RectangleTest.java`)
-- 
+- Parameterized Tests Lifecyle and Interoperability (e.g. `RectangleTest.java`)
+- Test Templates (e.g. ``)
+- Dynamic Tests
 

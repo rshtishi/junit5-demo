@@ -1,6 +1,9 @@
 package com.github.rshtishi.junit5.basic;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.TestInfo;
 import org.junit.jupiter.api.extension.ParameterContext;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.aggregator.AggregateWith;
@@ -13,6 +16,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RectangleTest {
 
+    @BeforeEach
+    public void setup(TestInfo testInfo) {
+        System.out.println("Start: " + testInfo.getDisplayName());
+    }
+
+    @AfterEach
+    public void tearDown(TestInfo testInfo) {
+        System.out.println("End: " + testInfo.getDisplayName());
+    }
+
     @DisplayName("Test Area of Rectangle")
     @ParameterizedTest(name = "it: {index} width:{0} height:{1} => area:{2}")
     @CsvSource({
@@ -20,7 +33,7 @@ class RectangleTest {
             "5,15,75",
             "12,30,360"
     })
-    void testArea(@AggregateWith(RectangleAggregator.class) Rectangle rectangle,ArgumentsAccessor argumentAccessor) {
+    void testArea(@AggregateWith(RectangleAggregator.class) Rectangle rectangle, ArgumentsAccessor argumentAccessor) {
         assertEquals(argumentAccessor.getInteger(2), rectangle.getArea());
     }
 

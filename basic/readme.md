@@ -58,4 +58,5 @@ Also, the test methods are not required to:
 - Parameterized Tests Lifecyle and Interoperability (e.g. `RectangleTest.java`)
 - Test Templates (e.g. `SortAlgorythmTest.java`)
 - Dynamic Tests (e.g. `PrimeNumberCheckerTest.java`)
+- Dynamic Tests with URI Test Sources (e.g. `webPageFetcherTest.java`)
 

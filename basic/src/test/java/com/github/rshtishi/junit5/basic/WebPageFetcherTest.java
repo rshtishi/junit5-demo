@@ -40,7 +40,7 @@ class WebPageFetcherTest {
                 tests.add(test);
             }
             return tests;
-            
+
         }
     }
 

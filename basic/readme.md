@@ -59,4 +59,5 @@ Also, the test methods are not required to:
 - Test Templates (e.g. `SortAlgorythmTest.java`)
 - Dynamic Tests (e.g. `PrimeNumberCheckerTest.java`)
 - Dynamic Tests with URI Test Sources (e.g. `webPageFetcherTest.java`)
+- Timeout (e.g. `ExternalApiServiceTest.java`)
 

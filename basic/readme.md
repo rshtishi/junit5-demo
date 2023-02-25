@@ -64,4 +64,5 @@ Also, the test methods are not required to:
 - Timeout on parameterized tests (e.g.`ExternalApiServiceTest.java`)
 - Timeout on dynamic tests (e.g. `ExternalApiServiceTest.java`)
 - Parallel Execution (e.g. `CheckingAccountTest.java`)
+- Synchronization with parallel execution (e.g. ``)
 

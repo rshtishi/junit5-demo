@@ -58,8 +58,10 @@ Also, the test methods are not required to:
 - Parameterized Tests Lifecyle and Interoperability (e.g. `RectangleTest.java`)
 - Test Templates (e.g. `SortAlgorythmTest.java`)
 - Dynamic Tests (e.g. `PrimeNumberCheckerTest.java`)
-- Dynamic Tests with URI Test Sources (e.g. `webPageFetcherTest.java`)
+- Dynamic Tests with URI Test Sources (e.g. `WebPageFetcherTest.java`)
 - Timeout (e.g. `ExternalApiServiceTest.java`)
 - Timeout on repeated tests (e.g. `ExternalApiServiceTest.java`)
-- Timeout on parameterized tests (e.g.)
+- Timeout on parameterized tests (e.g.`ExternalApiServiceTest.java`)
+- Timeout on dynamic tests (e.g. `ExternalApiServiceTest.java`)
+- 
 

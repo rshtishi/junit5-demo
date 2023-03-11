@@ -66,5 +66,6 @@ Also, the test methods are not required to:
 - Parallel Execution (e.g. `CheckingAccountTest.java`)
 - Synchronization with parallel execution (e.g. `SharedResourceTest.java`)
 - Built-in Extensions  `@TempDir` (e.g. `FileCreatorTest.java`)
-- Declarative Extension Registration (e.g. `CalcualtorTestWithLogging.java`)
-- Programmatic Extension Registration (e.g )
+- Declarative Extension Registration (e.g. `CalculatorTestWithLogging.java`)
+- Programmatic Extension Registration using static field (e.g `CalculatorTestWithTiming.java`)
+- Programmatic Extension Registration using instance field (e.g)

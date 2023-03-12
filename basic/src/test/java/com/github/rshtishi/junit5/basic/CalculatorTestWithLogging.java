@@ -19,6 +19,17 @@ class CalculatorTestWithLogging {
         int result = calculator.add(num1, num2);
         //verify
         int expected = 4;
-        assertEquals(expected,result);
+        assertEquals(expected, result);
+    }
+
+    @Test
+    public void testMultiply() {
+        // setup
+        int num1 = 6, num2 = 3;
+        // execute
+        int result = calculator.divide(num1, num2);
+        // verify
+        int expected = 2;
+        assertEquals(expected, result);
     }
 }
